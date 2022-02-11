@@ -19,3 +19,9 @@ UWAGA: zaznaczam, że dane są umieszczone wyłącznie po to, żeby zapewnić sp
 - setup.py - plik umożliwiający instalację przez pip: bibliotekę instaluje się poleceniem: pip install git+https://github.com/CakePL/NYPD_final_project.git
 (wszystkie inne potrzebne biblioteki zostaną zainstalowane automatycznie)
 
+- raport, będący częścią zadania jest w formie interaktywnych wykresów (zrobionych w plotly) - 
+można w nich m. in. wybrać fragment wykresu, który chce się obejrzeć (wystarczy zaznaczyć obszar)
+oraz zobczyć dokładne wartości (wystarczy najechać myszką na słupek wykresu) - dzięki powyższemu jest to dobry sposób na zaprezentowanie nawet sporych danych
+(dzięki dokładnym wartością tabelka nie jest konieczna, a dzięki możliwości dowolnego przybliżania umożliwia wizualizację danych, które umieszczone na standardowym, statycznym wykresie byłyby zupełnie nieczytelne przez ich ilość).
+Wykresy powinny pokazać się w wyniku działania skryptu
+
