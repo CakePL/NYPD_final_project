@@ -1,4 +1,5 @@
-#importuje tylko pojedyncze funkcje, zeby podkreslic ze to one stanowia
+#importuje tylko pojedyncze funkcje, zeby podkreslic ze to one stanowia interfejs biblioteki
+#a pozostale - implementacje
 import argparse
 from pit_analysis.io.load import load_pit_commune_data, load_pit_district_data, load_pit_province_data, \
     load_population_data, load_population_province_data
